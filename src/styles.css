@@ -175,3 +175,14 @@ footer {
         padding: 20px;
     }
 }
+
+#about {
+    display: flex;
+    align-items: center; /* Vertically centers content */
+    gap: 20px; /* Adds space between the image and text */
+}
+
+.image-container img {
+    max-width: 150px; /* Adjust the image size as needed */
+    border-radius: 10%; /* Optional: Rounds the image */
+}
