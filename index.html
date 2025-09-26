@@ -11,6 +11,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
           rel="stylesheet">
     <link href="src/styles.css" rel="stylesheet">
+    <style>
+    #summer-camp-reservation-title {
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      animation: neon-rainbow 5s linear infinite;
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #fff,
+                   0 0 20px #ff00de,
+                   0 0 30px #ff00de,
+                   0 0 40px #00ffff,
+                   0 0 50px #00ffff,
+                   0 0 60px #00ffff;
+    }
+
+    @keyframes neon-rainbow {
+      0%   { color: red; }
+      16%  { color: orange; }
+      32%  { color: yellow; }
+      48%  { color: lime; }
+      64%  { color: cyan; }
+      80%  { color: blue; }
+      100% { color: magenta; }
+    }    </style>
 </head>
 <body>
 <header id="header">
@@ -83,59 +108,29 @@
                     </div>
                 </li>
                 <li>
+                    <img alt="PDF_file_icon.svg.png" height="32" src="/img/PDF_file_icon.svg.png" width="32">
+                    <p>PDF version</p>                    
                     <embed height="2100px" src="Szakdolgozat-Fabian-Bernat.pdf" width="800px"/>
                     <br />
-<p>PDF version</p>                    
                 </li>
                 <span>
                 <img alt="oveleaflogo.png" height="32" src="/img/oveleaflogo.png" width="32">
-                <li><a href="https://www.overleaf.com/read/pfzywbczdsfb#057a56"
-                       target="_blank">Link to Overleaf project</a></li>
+                <li><a href="https://www.overleaf.com/read/pfzywbczdsfb#057a56" target="_blank" style="color: blue;">Link to Overleaf project</a></li>
                 </span>
-                <img alt="PDF_file_icon.svg.png" height="32" src="/img/PDF_file_icon.svg.png" width="32">
-                 <li class="bold-and-highlighted">
-                    <h2  style="align-items: center; text-align: center; @keyframes summer-camp-reservation-title {
-                        color-changing-rainbow-style: true;
-                    }
-                    
-                    #summer-camp-reservation-title {
-                        text-align: center;
-                        font-size: 2.5rem;
-                        font-weight: bold;
-                        text-transform: uppercase;
-                        animation: neon-rainbow 5s linear infinite;
-                        text-shadow: 0 0 5px #fff,
-                                    0 0 10px #fff,
-                                    0 0 20px #ff00de,
-                                    0 0 30px #ff00de,
-                                    0 0 40px #00ffff,
-                                    0 0 50px #00ffff,
-                                    0 0 60px #00ffff;
-                    }
-
-                        /* Színváltó animáció */
-                        @keyframes neon-rainbow {
-                        0%   { color: red; }
-                        16%  { color: orange; }
-                        32%  { color: yellow; }
-                        48%  { color: lime; }
-                        64%  { color: cyan; }
-                        80%  { color: blue; }
-                        100% { color: magenta; }
-                    }
-
-                    ;" id="summer-camp-reservation-title">
+                 <li class="bold-and-highlighted" style="background-color:black;
+;">
+                    <h2 id="summer-camp-reservation-title">
                         Summer Camp Reservation App
                     </h2>
                     <p class="content-description">
                         A FireBase deployed Angular web application for reserving summer camps in Europe.
-                        <a href="https://github.com/fabbernatdrcode/nyari-tabor-foglalo" target="_blank">Pictures and source HERE
+                        <a href="https://github.com/fabbernatdrcode/nyari-tabor-foglalo" target="_blank" style="color: blue;">Pictures and source HERE
                         </a>
                     </p>
                  </li>
 
-                 <li><a href="https://github.com/Fabbernat/TowerDefense" target="_blank">Kingdom Rush-like Tower Defense Game</a></li>
-                <img alt="githublogo.png" height="32" src="/img/githublogo.png" width="32">
+                 <img alt="githublogo.png" height="32" src="/img/githublogo.png" width="32">
+                 <li><a href="https://github.com/Fabbernat/TowerDefense" target="_blank" style="color: blue;">Kingdom Rush-like Tower Defense Game</a></li>
 
             </ul>
         </div>
