@@ -157,7 +157,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
-    justify-content: center;
 }
 
 #contact a {
@@ -208,10 +207,9 @@ footer {
 }
 
 #about {
-    display: grid;
-    grid-template-columns: 160px 1fr;
-    gap: 28px;
-    align-items: start;
+    display: flex;
+    align-items: center; /* Vertically centers content */
+    gap: 20px; /* Adds space between the image and text */
 }
 
 .about-text ul {
@@ -220,12 +218,8 @@ footer {
 }
 
 .image-container img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 12px;
-    border: 1px solid var(--border);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    max-width: 150px; /* Adjust the image size as needed */
+    border-radius: 12px; /* Optional: Rounds the image */
 }
 
 @media (max-width: 768px) {
@@ -255,6 +249,7 @@ footer {
 .bold-and-highlighted:hover {
     background-color: #f0f0f0;
 }
+
 
 .featured-item {
     background: linear-gradient(180deg, rgba(109, 136, 166, 0.10), rgba(109, 136, 166, 0.04));
@@ -312,6 +307,63 @@ footer {
     background-color: rgba(109, 136, 166, 0.16);
     color: var(--accent-hover);
     text-decoration: none;
+}
+
+.publication-resource-links {
+    display: grid;
+    gap: 14px;
+}
+
+.resource-link-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 16px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+.resource-label {
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
+.resource-label.with-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.resource-link {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid rgba(109, 136, 166, 0.25);
+    background-color: rgba(109, 136, 166, 0.08);
+    color: var(--accent);
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+.resource-link:hover {
+    background-color: rgba(109, 136, 166, 0.16);
+    color: var(--accent-hover);
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .resource-link-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .resource-link {
+        white-space: normal;
+    }
 }
 
 .pdf-preview {
