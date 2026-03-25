@@ -54,16 +54,18 @@
 <main id="container">
     <h2>Contact me</h2>
     <div class="contact-links">
-        <a href="https://github.com/Fabbernat" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://github.com/Fabbernat" target="_blank" rel="noopener noreferrer">GitHub <img alt="githublogo.png" height="32" src="./img/githublogo.png" width="32"></a>
         <a href="mailto:job.fabbernat@gmail.com">Email</a>
         <a href="https://www.facebook.com/profile.php?id=100012511780116" target="_blank" rel="noopener noreferrer">Facebook</a>
         <a href="https://www.instagram.com/Fabbernat/" target="_blank" rel="noopener noreferrer">Instagram</a>
         <a href="https://www.linkedin.com/in/bern%C3%A1t-f%C3%A1bi%C3%A1n-7a1bb7299/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>
     <section class="section" id="about">
-        <div class="image-container">
+    <div class="image-container">
             <img alt="This is me." src="./img/profile_picture.png">
-        </div>
+    </div>
+
+    <div class="about-text">
         <h1>About me</h1>
         <ul>
             <li>
@@ -78,9 +80,10 @@
             </li>
             <li> I can speak fluently in Hungarian, English, and I can also understand German.</li>
             <li>My main programming languages are Python, Java and C# for backend and React, Angular for frontend. I am actively using these technologies every day in my current projects.</li>
-            <li>See my pinned projects that I am most engaged in currently, on <a href="https://github.com/Fabbernat">my GitHub</a> </li>
+            <li>See my pinned projects that I am most engaged in currently, on <a href="https://github.com/Fabbernat">my GitHub <img alt="githublogo.png" height="16" src="./img/githublogo.png" width="16"></a> </li>
         </ul>
-    </section>
+    </div>
+</section>
     <section class="section" id="news">
         <h1>News</h1>
         <ul>
@@ -89,57 +92,59 @@
         </ul>
     </section>
     <section class="section" id="publications">
-        <h1>Publications</h1>
-        <div>
-            <ul>
-                <li class="bold-and-highlighted">
-                    <div>
+        <h1>Publications & Projects</h1>
 
-                        <h1 style="font-size: x-large; margin-bottom: 0; padding-bottom: 0">
-                            My Thesis: - Reviewing the Performance of Language Models on the Word-in-Context Benchmark
-                            <br />
-                            2023-2025
-                        </h1>
-                        <h4 style="margin-top: 0; padding-top: 0">
-                            An automated Python module for running any Hugging Face model on multiple questions with just one click! All in an isolated and deterministic way.
-                            <br />
-                            <a href="https://github.com/Fabbernat/Thesis" style="color: blue;">Github link</a>
-                            <img alt="githublogo.png" height="32" src="./img/githublogo.png" width="32">
-                        </h4>
-                    </div>
-                </li>
-                <li>
-                    <img alt="PDF_file_icon.svg.png" height="32" src="./img/PDF_file_icon.svg.png" width="32">
-                    <p>PDF version</p>                    
-                    <embed height="2100px" src="Fabian_Bernat_URX5VP_PTI_BSc.pdf" width="800px"/>
-                    <br />
-                </li>
-                <span>
-                    <p>PDF source on GitHub (MikTeX)</p>
-                    <li><a href="https://github.com/Fabbernat/Thesis-paper" target="_blank" style="color: blue;">Link to GitHub source</a></li>
-                </span>
-                <span>
-                <img alt="oveleaflogo.png" height="32" src="./img/oveleaflogo.png" width="32">
-                <li><a href="https://www.overleaf.com/read/pfzywbczdsfb#057a56" target="_blank" style="color: blue;">Link to Overleaf project</a></li>
-                </span>
-                 <li class="bold-and-highlighted" style="background-color:black;
-;">
-                    <h2 id="summer-camp-reservation-title">
+        <ul class="publication-list">
+            <li class="publication-item featured-item">
+                <h2>
+                    My Thesis: Reviewing the Performance of Language Models on the Word-in-Context Benchmark
+                </h2>
+                <p class="publication-years">2023–2025</p>
+                <p class="content-description">
+                    An automated Python framework for evaluating Hugging Face language models on Word-in-Context tasks
+                    in an isolated and deterministic way.
+                </p>
+
+                <div class="publication-links">
+                    <a href="https://github.com/Fabbernat/Thesis" target="_blank" rel="noopener noreferrer">GitHub repository <img alt="githublogo.png" height="16" src="./img/githublogo.png" width="16"></a>
+                    <a href="Fabian_Bernat_URX5VP_PTI_BSc.pdf" target="_blank" rel="noopener noreferrer">Open thesis PDF</a>
+                    <a href="https://github.com/Fabbernat/Thesis-paper" target="_blank" rel="noopener noreferrer">LaTeX source</a>
+                    <a href="https://www.overleaf.com/read/pfzywbczdsfb#057a56" target="_blank" rel="noopener noreferrer">Overleaf project</a>
+                </div>
+
+                <div class="pdf-preview">
+                    <embed src="Fabian_Bernat_URX5VP_PTI_BSc.pdf" type="application/pdf">
+                </div>
+            </li>
+
+            <li class="publication-item featured-item">
+                <h2 id="summer-camp-reservation-title">
                         Summer Camp Reservation App
                     </h2>
                     <p class="content-description">
-                        A FireBase deployed Angular web application for reserving summer camps in Europe.
-                        <a href="https://github.com/fabbernatdrcode/nyari-tabor-foglalo" target="_blank" style="color: blue;">Pictures and source HERE
-                        </a>
-                    </p>
-                 </li>
+                    A Firebase-hosted Angular web application for reserving summer camps in Europe.
+                </p>
+                <div class="publication-links">
+                    <a href="https://github.com/fabbernatdrcode/nyari-tabor-foglalo" target="_blank" rel="noopener noreferrer">
+                        Pictures and source code HERE <img alt="githublogo.png" height="16" src="./img/githublogo.png" width="16">
+                    </a>
+                </div>
+            </li>
 
-                 <img alt="githublogo.png" height="32" src="./img/githublogo.png" width="32">
-                 <li><a href="https://github.com/Fabbernat/TowerDefense" target="_blank" style="color: blue;">Kingdom Rush style tower-defense CLI app</a></li>
-                 <li><a href="https://github.com/Fabbernat/Polytopia-backend" target="_blank" style="color: blue;">Polytopia-style strategy game</a></li>
+            <li class="publication-item">
+                <h2>Kingdom Rush style tower-defense CLI app</h2>
+                <div class="publication-links">
+                    <a href="https://github.com/Fabbernat/TowerDefense" target="_blank" rel="noopener noreferrer">View on GitHub <img alt="githublogo.png" height="16" src="./img/githublogo.png" width="16"></a>
+                </div>
+            </li>
 
-            </ul>
-        </div>
+            <li class="publication-item">
+                <h2>Polytopia-Style Strategy Game</h2>
+                <div class="publication-links">
+                    <a href="https://github.com/Fabbernat/Polytopia-backend" target="_blank" rel="noopener noreferrer">View on GitHub <img alt="githublogo.png" height="16" src="./img/githublogo.png" width="16"></a>
+                </div>
+            </li>
+        </ul>
     </section>
     <hr>
     <section class="section" id="teaching">
